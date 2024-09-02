@@ -1,0 +1,21 @@
+/* Group*/
+h1,h2{
+    color: blueviolet;
+}
+/* child -->  parent>child */
+/* (.box>.done) we can also use this */
+.box > p{
+    color: firebrick;
+}
+/* descendanct   --> same as child but parent not required */
+.box li{
+    color: blue;
+}
+/* chained --> no space */
+li.done{
+    color: seagreen;
+}
+/* multiple */
+ul p.done{
+ font-size: 0.5rem;
+}
